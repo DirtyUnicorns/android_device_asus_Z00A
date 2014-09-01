@@ -62,6 +62,10 @@ PRODUCT_PACKAGES += \
     thermald \
     ueventd.mofd_v1.rc
 
+# DevicHandler
+PRODUCT_PACKAGES += \
+    DeviceHandler
+
 # Audio
 PRODUCT_PACKAGES += \
     libtinycompress \
