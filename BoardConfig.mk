@@ -74,9 +74,6 @@ DEVICE_RESOLUTION := 1080x1920
 # Bootloader
 TARGET_OTA_ASSERT_DEVICE := Z00A
 
-# Hardware
-BOARD_HARDWARE_CLASS := device/asus/Z00A/cmhw
-
 # Use dlmalloc
 MALLOC_IMPL := dlmalloc
 
