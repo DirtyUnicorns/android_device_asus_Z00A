@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2011 The CyanogenMod Project
+ * Copyright (C) 2015 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -146,7 +146,8 @@ public class ShortcutPickerHelper {
         intent.putExtra(Intent.EXTRA_SHORTCUT_NAME, data.getStringExtra(
                 Intent.EXTRA_SHORTCUT_NAME));
         String appUri = intent.toUri(0);
-        appUri = appUri.replaceAll("com.android.contacts.action.QUICK_CONTACT", Intent.ACTION_VIEW);
+        appUri = appUri.replaceAll("com.android.contacts.action.QUICK_CONTACT",
+                "android.intent.action.VIEW");
 
         // Check if icon is present
         Bitmap bmp = null;

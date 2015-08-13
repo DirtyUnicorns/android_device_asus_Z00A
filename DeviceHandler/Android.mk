@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2014 SlimRoms Project
+# Copyright (C) 2015 SlimRoms Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@ include $(CLEAR_VARS)
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_CERTIFICATE := platform
 LOCAL_PACKAGE_NAME := DeviceHandler
-
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
+LOCAL_DEX_PREOPT := false
 
 include $(BUILD_PACKAGE)
