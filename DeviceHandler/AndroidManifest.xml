@@ -14,14 +14,13 @@
     <application
             android:icon="@drawable/ic_launcher"
             android:label="DeviceHandler"
-            >
+            android:theme="@android:style/Theme.Material.Settings" >
 
         <!-- stub to ensure its loaded - DO NOT REMOVE -->
         <activity android:name=".KeyHandler" />
 
         <activity android:name=".settings.ScreenOffGestureSettings"
             android:label="@string/screen_off_gesture_title"
-            android:theme="@style/DeviceHandlerTheme"
             android:configChanges="orientation|screenSize">
           <intent-filter>
                 <action android:name="com.slim.action.LAUNCH_SCREEN_OFF_GESTURE_SETTINGS" />
