@@ -34,7 +34,6 @@ PRODUCT_PACKAGES += \
     config_init.sh \
     fstab \
     fstab.mofd_v1 \
-    fstab.zram \
     init.avc.rc \
     init.bt.rc \
     init.bt.vendor.rc \
@@ -55,7 +54,6 @@ PRODUCT_PACKAGES += \
     init.watchdog.rc \
     init.wifi.rc \
     init.wifi.vendor.rc \
-    init.zram.rc \
     intel_prop \
     intel_prop.cfg \
     rfkill_bt.sh \
