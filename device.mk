@@ -32,7 +32,6 @@ DEVICE_PACKAGE_OVERLAYS := \
 # Ramdisk
 PRODUCT_PACKAGES += \
     config_init.sh \
-    fstab \
     fstab.mofd_v1 \
     init.avc.rc \
     init.bt.rc \
