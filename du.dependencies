@@ -1,0 +1,32 @@
+[
+ {
+   "repository":  "DirtyUnicorns/android_device_asus_mofd-common",
+   "target_path": "device/asus/mofd-common",
+   "branch":      "m-caf"
+ },
+ {
+   "repository":  "DirtyUnicorns/android_kernel_asus_Z00A",
+   "target_path": "kernel/asus/Z00A",
+   "branch":      "m-caf"
+ },
+ {
+   "repository":  "DirtyUnicorns/android_vendor_asus",
+   "target_path": "vendor/asus",
+   "branch":      "m-caf"
+ },
+ {
+   "repository":  "DirtyUnicorns/android_external_ffmpeg",
+   "target_path": "external/ffmpeg",
+   "branch":      "m-caf"
+ },
+ {
+   "repository":  "DirtyUnicorns/android_external_stagefright-plugins",
+   "target_path": "external/stagefright-plugins",
+   "branch":      "m-caf"
+ },
+ {
+   "repository":  "DirtyUnicorns/android_external_stlport",
+   "target_path": "external/stlport",
+   "branch":      "m-caf"
+ }
+]
